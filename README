@@ -63,9 +63,11 @@
     3.3 Global Settings
 
       1) In Cross-Platform case, make sure the required commands can be invoked preferentially.
-         For example, you can do it by the following command for Yocto-User
+         Install toolchain includes the appropriate target architecture into the host development
+         system. Use the following command for Yocto user to install toolchain. [ARCH] means the 
+         appropriate target architecture.
          -----------------------------------------------------------------------
-          $ source TOOLCHAIN/environment-setup-i586-poky-linux
+          $ source TOOLCHAIN/environment-setup-[ARCH]-poky-linux
          -----------------------------------------------------------------------
 
       2) Make sure the following environment variable point to correct path.
