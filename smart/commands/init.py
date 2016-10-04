@@ -45,6 +45,7 @@ def add (num1=0, num2=0):
 
 def sub(num1=0, num2=0):
     return int(num1) - int(num2)
+#def main(ctrl, opts):
 
 def option_parser():
     parser = OptionParser(usage=USAGE,
