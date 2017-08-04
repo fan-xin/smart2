@@ -165,7 +165,7 @@ $SMART config --set rpm-noparentdirs=1
 # PACKAGE_EXCLUDE setting be ignored
 
 # Create channels
-DISTRO_ARCHS=$(ls -l $PKGS_DIR | awk '/^d/{print $NF}')
+DISTRO_ARCHS=$(/bin/ls -l $PKGS_DIR | awk '/^d/{print $NF}')
 for arch in $DISTRO_ARCHS; do
         echo "Adding Smart channel $arch" 
         $SMART channel --add $arch type=rpm-md baseurl="$PKGS_DIR/$arch" -y
