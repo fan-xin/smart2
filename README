@@ -38,7 +38,7 @@
 
     3.2 Installation
 
-      Cd into smart2 directory and execute the following commands as root:
+      cd into smart2 directory and execute the following commands as root:
       -------------------------------------------------------------------
        # python setup.py build
        # python setup.py install
@@ -50,7 +50,7 @@
       -------------------------------------------------------------------
 
       Note
-        After install you have to change the interpreter from "#!/usr/bin/python" to 
+        After installation you have to change the interpreter from "#!/usr/bin/python" to 
         "#!/usr/bin/env python" in your smart2 command.
         -----------------------------------------------------------------
          $ whereis smart
@@ -161,9 +161,9 @@
       Note
         --rootfs-dir: rootfs directory that specified by enviroment-smart.sh.
 
-      After execute the above command, you can enter the interface of tgui:
+      After executing the above command, you can enter the interface of tgui:
       
-      1) Select install type
+      1) Select Installation Type 
          Smart2 supports three kinds of install type:
          - install all
            By default, all pacakges will be selected.
@@ -174,8 +174,8 @@
 
  
       2) Smart2 can help you filter GPLv3.
-         If you select "install all" or "customize" in above, smart2 will ask you whether 
-         you want to install packages which license is GPLv3.
+         If you select "install all" or "customize" at Installation Type, smart2 will ask you whether 
+         you want to install packages which license are GPLv3.
          - No  : GPLv3 packages will not be selected and not display in the next step.
          - Yes : GPLv3 packages can be selected as same as the other packages.
         
