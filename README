@@ -287,13 +287,5 @@
       -------------------------------------------------------------------
       More commands please reference to doc/ or http://labix.org/smart/howto.
       
-   4.4 Update repodate
-   
-      The rpm repository is managed by repodata. And Smart2 use the repodata infomation.
-      If the rpm package is changed or updated, the repodata needs to be updated to refect the newest infomation.
-      -------------------------------------------------------------------
-      $ rm -rf repodata
-      $ createrepo ./
-      -------------------------------------------------------------------
   		
 
